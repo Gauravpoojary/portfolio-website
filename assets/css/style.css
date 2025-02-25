@@ -17,8 +17,45 @@ body {
 }
 .profile-img {
     width: 150px;
-    height: 150px;
-    border-radius: 50%;
+    height: 200px;
+   
     object-fit: cover;
     margin-bottom: 15px;
+}
+/* Animated Navbar */
+.navbar {
+    transition: all 0.3s ease-in-out;
+}
+
+/* Scroll effect */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Button Hover Effect */
+.btn:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+}
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+/* Navbar Dark Mode */
+.navbar.dark-mode {
+    background-color: #333;
+}
+
+/* Card Dark Mode */
+.card.dark-mode {
+    background-color: #222;
+    color: white;
+}
+
+/* Button Hover Effect */
+.btn:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
 }
